@@ -26,11 +26,11 @@ From the project root (/workspaces/codespaces-blank/langchain-agent):
 
 1. Create and activate a virtual environment
 
-'''bash
+```bash
 
     uv sync --frozen
 
-'''
+```
 
 2. Create a .env file in the project root with the required environment variables (see below).
 
@@ -62,7 +62,7 @@ From the project root (/workspaces/codespaces-blank/langchain-agent):
 
     cd rag-server
     uv run rag-mcp-server
-    
+
 ```
 
 5. In a separate terminal, activate the virtual environment:
