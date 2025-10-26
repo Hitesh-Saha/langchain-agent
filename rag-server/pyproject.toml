@@ -1,0 +1,22 @@
+[project]
+name = "rag-mcp-server"
+version = "0.1.0"
+description = "A Retrieval Augmented Generation (RAG) MCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.11.3",
+    "huggingface-hub>=0.34.4",
+    "numpy>=2.3.2",
+    "pydantic>=2.11.7",
+    "pypdf2>=3.0.1",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.1.1",
+]
+
+[project.scripts]
+"rag-mcp-server" = "rag_mcp_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

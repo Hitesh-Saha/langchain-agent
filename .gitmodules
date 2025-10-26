@@ -1,0 +1,3 @@
+[submodule "rag-server"]
+	path = rag-server
+	url = https://github.com/Hitesh-Saha/RAG-MCP-Server.git
