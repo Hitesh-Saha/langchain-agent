@@ -27,7 +27,9 @@ From the project root (/workspaces/codespaces-blank/langchain-agent):
 1. Create and activate a virtual environment
 
 '''bash
+
     uv sync --frozen
+
 '''
 
 2. Create a .env file in the project root with the required environment variables (see below).
@@ -42,20 +44,25 @@ From the project root (/workspaces/codespaces-blank/langchain-agent):
     RAG_DB_PATH=<your_custom_rag_db_path_here>
     HF_TOKEN=<your_hf_token_here>
     MCP_PORT=<your_port_here>
+
 ```
 
 3. Install the submodule mcp RAG server
 
 ```bash
+
     git submodule init
     git submodule update
+
 ```
 
 4. Start the RAG server package
 
 ```bash
+
     cd rag-server
     uv run rag-mcp-server
+    
 ```
 
 5. In a separate terminal, activate the virtual environment:
