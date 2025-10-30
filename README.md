@@ -77,6 +77,7 @@ For Linux/Mac:
 ```bash
     source .venv/bin/activate
 ```
+
 6. Run the agent code in the project root:
 
 ```bash

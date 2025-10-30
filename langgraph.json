@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "rag_agent": "./src/agent.py:agent"
+    "agent": "./src/agent.py:agent"
   },
   "env": ".env"
 }
